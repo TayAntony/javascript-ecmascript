@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>De onde você é?</h1>
+    Digite seu país de nascimento: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificando()">
+    <div id="resultado"></div>
+
+    <script>
+        function verificando(){
+            var pais = document.getElementById('txtpais').value
+            var resultado = document.getElementById('resultado')
+            
+            resultado.innerHTML = `<p>Você é do(a) <strong>${pais}</strong>!</p>`
+
+            if (pais == 'Brasil') {
+                resultado.innerHTML += '<p>Isso te classifica como brasileiro(a)!</p>'
+            } else{
+                resultado.innerHTML += '<p>Isso te classifica como estrangeiro(a)!</p>'
+            }
+            
+        } 
+    </script>
+</body>
+</html>
