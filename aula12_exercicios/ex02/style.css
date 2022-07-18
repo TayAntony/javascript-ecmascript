@@ -18,7 +18,13 @@ section {
 }
 
 div{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#foto{
+    padding: 20px;
 }
 
 footer {

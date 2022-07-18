@@ -11,7 +11,7 @@ function clicar() {
         var idade = ano_atual - Number(ano_formulario.value)
         var genero = ''
         var img = document.createElement('img')
-        img.setAttribute('id', 'foto')
+        img.id = 'foto'
         if (sexo[0].checked) {
             genero = 'homem'
             if (idade <= 2) {
