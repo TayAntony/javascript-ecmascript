@@ -1,7 +1,6 @@
 //console.log ('Tudo bem?')
 
 
-
 var contador = 1
 while (contador < 224) {
     console.log(`Passo ${contador}`)
