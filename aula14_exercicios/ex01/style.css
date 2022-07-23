@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(88, 88, 211);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    margin: 0 auto;
+    width: 500px;
+    border-radius: 0.8rem;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin: 0.5rem;
+    
+}
+
+#botao{
+    width: 5rem;
+}
+
+footer {
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
